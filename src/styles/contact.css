@@ -1,0 +1,48 @@
+.contact{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.left{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex : 50%;
+}
+
+.right{
+    flex : 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+form input{
+    height: 40px;
+    width: 80%;
+    color:  black;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+form input :focus {
+outline: none;
+
+}
+
+form button{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}

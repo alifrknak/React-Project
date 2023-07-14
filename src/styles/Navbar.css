@@ -1,0 +1,24 @@
+.navbar{
+    background: cadetblue;
+}
+
+.navbar .main{
+    display: flex;
+    align-items: center;
+    padding :15px 0px 15px 50px; 
+}
+
+.navbar .main  img{
+    height:75px;
+}
+
+.navbar .mainlink{
+    margin-left: auto;
+    margin-right: 40px; 
+}
+
+.navbar a{
+    text-decoration:  none;
+    color: white;
+    margin-right: 20px;
+}

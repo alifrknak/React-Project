@@ -1,0 +1,29 @@
+.Menu{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.nemuItem{
+width: 300px;
+height: 350px;
+box-shadow: 0px 3px 15px rgb(0, 0, 20%);
+margin: 20px;
+text-align: center ;
+}
+
+.nemuItem div{
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70vw;
+
+}

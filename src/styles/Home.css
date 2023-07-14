@@ -1,0 +1,26 @@
+.MainPage{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+
+.order{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.order button{
+    background: cadetblue;
+    color: darkslategray;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 112px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    
